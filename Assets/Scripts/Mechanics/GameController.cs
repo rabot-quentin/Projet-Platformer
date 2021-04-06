@@ -20,6 +20,27 @@ namespace Platformer.Mechanics
         //conveniently configured inside the inspector.
         public PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
+        void Awake()
+        {
+            if (Instance != null)
+            {
+                //Debug.Debug.LogWarning("More than one instance of GameManager found!");
+                return;
+
+            }
+            Init();
+            Instance = this;
+
+        }
+
+        public Player p
+        { get; private set; }
+
+        void Init()
+        {
+            p = new Player();
+        }
+
         void OnEnable()
         {
             Instance = this;
@@ -34,5 +55,8 @@ namespace Platformer.Mechanics
         {
             if (Instance == this) Simulation.Tick();
         }
+
+
     }
+
 }

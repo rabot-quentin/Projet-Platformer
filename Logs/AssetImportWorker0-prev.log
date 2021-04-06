@@ -1,0 +1,785 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'fr' Physical Memory: 16145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Quentin Rabot/Documents/git Desk/Projet_Plateformeur-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51036
+Successfully changed project path to: C:/Users/Quentin Rabot/Documents/git Desk/Projet_Plateformeur-main
+C:/Users/Quentin Rabot/Documents/git Desk/Projet_Plateformeur-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Quentin Rabot/Documents/git Desk/Projet_Plateformeur-main/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.5771
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002485 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.625 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.4 MB.
+System memory in use after: 111.6 MB.
+
+Unloading 162 unused Assets to reduce memory usage. Loaded Objects now: 2756.
+Total: 3.736800 ms (FindLiveObjects: 0.738600 ms CreateObjectMapping: 0.210600 ms MarkObjects: 2.235600 ms  DeleteObjects: 0.550600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tiles/animation projectil
+  artifactKey: Guid(1d7c4ce1a4f41234fbadc1f53af00a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/animation projectil using Guid(1d7c4ce1a4f41234fbadc1f53af00a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8fece1d8d5928a5ebfc90696eef940') in 0.006302 seconds
+  Import took 0.010469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.207414 seconds.
+  path: Assets/Tiles/Player/enemie basique
+  artifactKey: Guid(61080734a04418746b26690099a0d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique using Guid(61080734a04418746b26690099a0d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3095364bfd6c8cc7f9dc0437bc431403') in 0.004104 seconds
+  Import took 0.009661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.105807 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png
+  artifactKey: Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png using Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2144da82ba301df7ab3bf3957c48fe3') in 0.162931 seconds
+  Import took 0.168073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.964074 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png
+  artifactKey: Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png using Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d36bc7ab55b58a3c80b9da37f3f903') in 0.014943 seconds
+  Import took 0.020539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png
+  artifactKey: Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png using Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0136f9deb7338e7608ef26a89929aa28') in 0.014136 seconds
+  Import took 0.019165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png
+  artifactKey: Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png using Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687d3c982a898dc43cf47ea75c643866') in 0.015836 seconds
+  Import took 0.022239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png
+  artifactKey: Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png using Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c9140800ec1be3920bae4ca6becc9') in 0.015902 seconds
+  Import took 0.020847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png
+  artifactKey: Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png using Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351d8a393b7bff1716f66c6dcd7817d1') in 0.016226 seconds
+  Import took 0.020621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png
+  artifactKey: Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png using Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42dc23e828d62e8e565682aa4a4440d') in 0.014406 seconds
+  Import took 0.021322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png
+  artifactKey: Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png using Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454d7eb499963273112d9f5496d35fcc') in 0.012676 seconds
+  Import took 0.020873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png
+  artifactKey: Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png using Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16e731ac22a31e8e183c4768b90be52') in 0.012905 seconds
+  Import took 0.018511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png
+  artifactKey: Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png using Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27affa324271a0e09f978cd8b239315f') in 0.016237 seconds
+  Import took 0.020179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png
+  artifactKey: Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png using Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29db797f887252e6734d3093eef4f486') in 0.013662 seconds
+  Import took 0.018013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png
+  artifactKey: Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png using Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12d36c28a3859e0527d97d67a2814d7') in 0.014001 seconds
+  Import took 0.018138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.564257 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png
+  artifactKey: Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png using Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09223665afd69e6df123c1f77fc82d7') in 0.012735 seconds
+  Import took 0.017921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019067 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png
+  artifactKey: Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png using Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09223665afd69e6df123c1f77fc82d7') in 0.011653 seconds
+  Import took 0.016929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.925858 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png
+  artifactKey: Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png using Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5345c6e756c928b5d331ab5c4911bf6b') in 0.026016 seconds
+  Import took 0.030712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011540 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png
+  artifactKey: Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0001.png using Guid(bece65e9e54c0a44d9e6eeb6f195a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5345c6e756c928b5d331ab5c4911bf6b') in 0.024444 seconds
+  Import took 0.032538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.539045 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png
+  artifactKey: Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png using Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c90f5539062c6248b8de8d1b5d75d') in 0.011023 seconds
+  Import took 0.016008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021518 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png
+  artifactKey: Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png using Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c90f5539062c6248b8de8d1b5d75d') in 0.018107 seconds
+  Import took 0.026570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.090729 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png
+  artifactKey: Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png using Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d8b241a36777499cfedea063e88784') in 0.022954 seconds
+  Import took 0.027615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010161 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png
+  artifactKey: Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0002.png using Guid(7515747ffd1ef584b9e678c27bf40c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d8b241a36777499cfedea063e88784') in 0.019623 seconds
+  Import took 0.025792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.267569 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png
+  artifactKey: Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png using Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae848ed8cc11ffe94fa322a64f43e07d') in 0.010982 seconds
+  Import took 0.015568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021494 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png
+  artifactKey: Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png using Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae848ed8cc11ffe94fa322a64f43e07d') in 0.017928 seconds
+  Import took 0.026606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.811889 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png
+  artifactKey: Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png using Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efa95562c6d21596b56eab86356d7ed') in 0.019555 seconds
+  Import took 0.024939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013145 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png
+  artifactKey: Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0003.png using Guid(ccf4f616a85c96c4799c28cb226c167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efa95562c6d21596b56eab86356d7ed') in 0.018202 seconds
+  Import took 0.024261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.090740 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png
+  artifactKey: Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png using Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6666ebed1e3f63f892262cd0c3ff50dc') in 0.011824 seconds
+  Import took 0.017162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018641 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png
+  artifactKey: Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png using Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6666ebed1e3f63f892262cd0c3ff50dc') in 0.010487 seconds
+  Import took 0.015018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.597526 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png
+  artifactKey: Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png using Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46184792474a21b6dc168366c47cfd9b') in 0.019152 seconds
+  Import took 0.024875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012594 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png
+  artifactKey: Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0004.png using Guid(bcd062ca4f0ac2c49a352946b3a6156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46184792474a21b6dc168366c47cfd9b') in 0.014645 seconds
+  Import took 0.019457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.451578 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png
+  artifactKey: Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png using Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048234818190da37f98f521c0c96190a') in 0.013492 seconds
+  Import took 0.020033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016400 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png
+  artifactKey: Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png using Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048234818190da37f98f521c0c96190a') in 0.011503 seconds
+  Import took 0.016734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.493258 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png
+  artifactKey: Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png using Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931926a9b35b6c4a6b5f88b0998a6124') in 0.026314 seconds
+  Import took 0.032487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004932 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png
+  artifactKey: Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0005.png using Guid(463dd29f50a89a34eb8321b971b2c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931926a9b35b6c4a6b5f88b0998a6124') in 0.019027 seconds
+  Import took 0.025183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.515828 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png
+  artifactKey: Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png using Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71838eeb100928c0b4142fe170b3af95') in 0.010112 seconds
+  Import took 0.014778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020951 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png
+  artifactKey: Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png using Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71838eeb100928c0b4142fe170b3af95') in 0.009989 seconds
+  Import took 0.014412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.774511 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png
+  artifactKey: Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png using Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c82ec6fab9eaec6a2dd12933814f4f6') in 0.024536 seconds
+  Import took 0.029266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011923 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png
+  artifactKey: Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0006.png using Guid(462ef442e747f704d954daab4fe5b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c82ec6fab9eaec6a2dd12933814f4f6') in 0.023336 seconds
+  Import took 0.031167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.762415 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png
+  artifactKey: Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png using Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3be18c0a0c23e6575dcdd2ed559dba') in 0.010928 seconds
+  Import took 0.015828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019578 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png
+  artifactKey: Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png using Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3be18c0a0c23e6575dcdd2ed559dba') in 0.010096 seconds
+  Import took 0.014883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.813320 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png
+  artifactKey: Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png using Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c09ec0afc67c9b4580fe8ce47126f3') in 0.021885 seconds
+  Import took 0.026335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019444 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png
+  artifactKey: Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0007.png using Guid(27b4d75b0eae1cf49a80a3b251a28182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c09ec0afc67c9b4580fe8ce47126f3') in 0.023653 seconds
+  Import took 0.031391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.632180 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png
+  artifactKey: Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png using Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fcbaf6e8551ca518b042c02f0cf0a4') in 0.011907 seconds
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018154 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png
+  artifactKey: Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png using Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fcbaf6e8551ca518b042c02f0cf0a4') in 0.010139 seconds
+  Import took 0.015205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.085292 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png
+  artifactKey: Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png using Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1741cdaf5e730c35eeff70c03e40d1') in 0.021941 seconds
+  Import took 0.027282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009963 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png
+  artifactKey: Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0008.png using Guid(cd5f8e87d227ec245b005efb196b309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1741cdaf5e730c35eeff70c03e40d1') in 0.022335 seconds
+  Import took 0.027985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.388433 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png
+  artifactKey: Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png using Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaa773b3c924719f226e8f40c4b100a') in 0.010104 seconds
+  Import took 0.015551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022387 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png
+  artifactKey: Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png using Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaa773b3c924719f226e8f40c4b100a') in 0.010536 seconds
+  Import took 0.015378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.974198 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png
+  artifactKey: Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png using Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9ef339fc8390a875128a45423379b9') in 0.020950 seconds
+  Import took 0.025426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015553 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png
+  artifactKey: Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0009.png using Guid(170b7cf5d1e2be34fbe20607ae9bfc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9ef339fc8390a875128a45423379b9') in 0.016357 seconds
+  Import took 0.022098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.146976 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png
+  artifactKey: Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png using Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21c554490c6d95e1fd079475e8cc7fa') in 0.011043 seconds
+  Import took 0.016575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020056 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png
+  artifactKey: Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png using Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21c554490c6d95e1fd079475e8cc7fa') in 0.011247 seconds
+  Import took 0.015182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.756086 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png
+  artifactKey: Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png using Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02271f30d5d3e172f8fc006a97a3fca6') in 0.016785 seconds
+  Import took 0.021058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015311 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png
+  artifactKey: Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0010.png using Guid(1b2bc07ff5e50ae459fd3981bb0dff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02271f30d5d3e172f8fc006a97a3fca6') in 0.022499 seconds
+  Import took 0.027190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.895898 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png
+  artifactKey: Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png using Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f588bac0ede524f8a78f518269a6baf') in 0.012114 seconds
+  Import took 0.016829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019476 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png
+  artifactKey: Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png using Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f588bac0ede524f8a78f518269a6baf') in 0.017367 seconds
+  Import took 0.025743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.064369 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png
+  artifactKey: Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png using Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9851f8cd66c3d928579f9bd9c7bc5872') in 0.022332 seconds
+  Import took 0.027345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008931 seconds.
+  path: Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png
+  artifactKey: Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Player/enemie basique/tas de dechet attaque0011.png using Guid(2393e086632969148a373f9bcfc4b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9851f8cd66c3d928579f9bd9c7bc5872') in 0.019519 seconds
+  Import took 0.025921 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2796.
+Total: 3.889600 ms (FindLiveObjects: 0.371900 ms CreateObjectMapping: 0.288700 ms MarkObjects: 2.725000 ms  DeleteObjects: 0.502900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.494 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.5 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2799.
+Total: 3.263400 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.155300 ms MarkObjects: 2.291400 ms  DeleteObjects: 0.532500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.020624 seconds.
+  path: Assets/Scripts/enemyMouve.cs
+  artifactKey: Guid(4be94e42663e8314588a0455343c44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/enemyMouve.cs using Guid(4be94e42663e8314588a0455343c44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc51695a6da4be49837404a55563a530') in 0.009787 seconds
+  Import took 0.014365 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001987 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.525 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2802.
+Total: 3.354600 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.161800 ms MarkObjects: 2.229700 ms  DeleteObjects: 0.591700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.550 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.5 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 4.661700 ms (FindLiveObjects: 0.662100 ms CreateObjectMapping: 0.354700 ms MarkObjects: 3.117000 ms  DeleteObjects: 0.526300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 486.959475 seconds.
+  path: Assets/Scripts/ajout/enemyMouve.cs
+  artifactKey: Guid(4be94e42663e8314588a0455343c44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ajout/enemyMouve.cs using Guid(4be94e42663e8314588a0455343c44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd277d2cf723971d91d4d4a64a542b38') in 0.006494 seconds
+  Import took 0.011935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.9 MB.
+System memory in use after: 114.1 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2808.
+Total: 4.049800 ms (FindLiveObjects: 0.381000 ms CreateObjectMapping: 0.237000 ms MarkObjects: 2.787800 ms  DeleteObjects: 0.641500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.4 MB.
+System memory in use after: 114.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2811.
+Total: 3.123000 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.137300 ms  DeleteObjects: 0.520800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.639 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.9 MB.
+System memory in use after: 114.1 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2814.
+Total: 6.245500 ms (FindLiveObjects: 0.550300 ms CreateObjectMapping: 0.297700 ms MarkObjects: 4.323600 ms  DeleteObjects: 1.071100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.3 MB.
+System memory in use after: 114.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2817.
+Total: 8.226400 ms (FindLiveObjects: 0.998800 ms CreateObjectMapping: 0.572200 ms MarkObjects: 5.360900 ms  DeleteObjects: 1.291000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.241 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.4 MB.
+System memory in use after: 114.6 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2820.
+Total: 3.208700 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.182000 ms MarkObjects: 2.176900 ms  DeleteObjects: 0.491400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 2823.
+Total: 3.588000 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.208800 ms MarkObjects: 2.466700 ms  DeleteObjects: 0.565100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

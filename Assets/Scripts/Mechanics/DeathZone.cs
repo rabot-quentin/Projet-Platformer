@@ -3,23 +3,17 @@ using System.Collections.Generic;
 using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
+  
+    public class DeathZone : MonoBehaviour 
 
-namespace Platformer.Mechanics
 {
-    /// <summary>
-    /// DeathZone components mark a collider which will schedule a
-    /// PlayerEnteredDeathZone event when the player enters the trigger.
-    /// </summary>
-    public class DeathZone : MonoBehaviour
+    public int damageOncollision = 1;
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        void OnTriggerEnter2D(Collider2D collider)
+        if (collision.transform.CompareTag("Player"))
         {
-            var p = collider.gameObject.GetComponent<PlayerController>();
-            if (p != null)
-            {
-                var ev = Schedule<PlayerEnteredDeathZone>();
-                ev.deathzone = this;
-            }
+            PlayerHealf playerHealf = collision.transform.GetComponent<PlayerHealf>();
+            playerHealf.TakeDamage(damageOncollision);
         }
     }
 }

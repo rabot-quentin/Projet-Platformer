@@ -137,5 +137,17 @@ namespace Platformer.Mechanics
             InFlight,
             Landed
         }
+
+        private void OnTriggerEnter2D(Collider2D collider)
+        {
+            if (collider.tag == "munition")
+            {
+                GameManager.Instance.p.munition = GameManager.Instance.p.munition + 1;
+            }
+
+           
+
+        }
+       
     }
 }

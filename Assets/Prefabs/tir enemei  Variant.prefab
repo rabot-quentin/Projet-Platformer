@@ -20,7 +20,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1001 &7638750739982409128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28,10 +28,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.0002723
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.6305412
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0040499866
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.015561581
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -2349579308158262385, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.44
+      objectReference: {fileID: 0}
     - target: {fileID: 682793741509321741, guid: 76f6c0fdde033214a9ee197e4ee7744b,
         type: 3}
       propertyPath: m_Name
       value: tir enemei  Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 682793741509321741, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_TagString
+      value: TirEnemie
       objectReference: {fileID: 0}
     - target: {fileID: 3742645591248349256, guid: 76f6c0fdde033214a9ee197e4ee7744b,
         type: 3}
@@ -40,13 +80,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3742645591248349256, guid: 76f6c0fdde033214a9ee197e4ee7744b,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7454586
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742645591248349256, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4589052
+      objectReference: {fileID: 0}
+    - target: {fileID: 3742645591248349256, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.194113
+      value: 24.6516
       objectReference: {fileID: 0}
     - target: {fileID: 3742645591248349256, guid: 76f6c0fdde033214a9ee197e4ee7744b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.653307
+      value: -16.9944
       objectReference: {fileID: 0}
     - target: {fileID: 3742645591248349256, guid: 76f6c0fdde033214a9ee197e4ee7744b,
         type: 3}
@@ -88,6 +138,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 92.134
       objectReference: {fileID: 0}
+    - target: {fileID: 4404223319457783780, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404223319457783780, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404223319457783780, guid: 76f6c0fdde033214a9ee197e4ee7744b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7307597635406451175, guid: 13ccd08387328a44d9e9a70654aab227,
+        type: 3}
     - target: {fileID: 8421838975320448849, guid: 76f6c0fdde033214a9ee197e4ee7744b,
         type: 3}
       propertyPath: enemie

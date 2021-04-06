@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "cl\xE9"
+  - munition
+  - Enemy
+  - "TirAlli\xE9"
+  - TirEnemie
+  - porte
   layers:
   - Default
   - TransparentFX
